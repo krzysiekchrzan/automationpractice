@@ -1,0 +1,14 @@
+<suite name="Test_2">
+    <test name="goToTops">
+    <classes>
+        <class name="pl.b2b.net.automationPractice.pages.homePage.TestHomePage">
+            <methods>
+                <exclude name = "goToWomenPage"/>
+            </methods>
+        </class>
+
+        <class name="pl.b2b.net.automationPractice.pages.womanPage.TestWomanPage" />
+        <class name="pl.b2b.net.automationPractice.pages.topsPage.TestTopsPage" />
+    </classes>
+    </test>
+</suite>
